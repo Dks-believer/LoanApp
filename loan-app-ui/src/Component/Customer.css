@@ -1,0 +1,96 @@
+/* Customer.css */
+.customer-table {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    color: #1a3345;
+  }
+  
+  .customer-row {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 5px;
+    
+  }
+  
+  .header {
+    font-weight: bold;
+  }
+  
+  .cell {
+    flex: 1;
+  }
+  .update-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .customer-table .customer-row .cell {
+    display: flex;
+    align-items:end;
+  }
+  
+ 
+  
+  .update-button:hover {
+    background-color: #2980b9;
+  }  
+
+  .customer-form-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  /* serch bar */
+.search-bar {
+    display: flex;
+    align-items:center;
+    margin-bottom: 10px;
+   margin-left: 100px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Customer.css (or any other CSS file you're using) */
+.back-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+  
+  
